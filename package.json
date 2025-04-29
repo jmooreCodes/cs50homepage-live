@@ -1,0 +1,19 @@
+{
+  "name": "minify-project",
+  "version": "1.0.0",
+  "description": "Project to minify HTML, CSS, and JS using Gulp",
+  "main": "gulpfile.js",
+  "scripts": {
+    "start": "gulp",
+    "build": "gulp"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "gulp": "^4.0.2",
+    "gulp-clean-css": "^4.3.0",
+    "gulp-htmlmin": "^5.0.1",
+    "gulp-uglify": "^3.0.2",
+    "gulp-imagemin": "^7.1.0"
+  }
+}

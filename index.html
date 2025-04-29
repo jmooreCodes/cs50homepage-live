@@ -1,0 +1,296 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+    <head>
+        <!--Ensures proper rendering and touch zooming on mobile devices-->
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <!--Bootstrap CSS-->
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+
+        <!--Google Fonts for clean typography-->
+        <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&family=Montserrat:wght@500;700&display=swap" rel="stylesheet">
+
+        <!--Font Awesome for icons-->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
+
+        <!--Link to our CSS file-->
+        <link href="styles.css" rel="stylesheet">
+
+        <!--Page title that appears on browser tab-->
+        <title>My Webpage | CS50x Homepage</title>
+    </head>
+
+    <body>
+        <!--Navigation Bar-->
+        <nav class="navbar navbar-expand-lg bg-white fixed-top shadow-sm" id="main-nav">
+            <div class="container">
+                <a class="navbar-brand logo" href="index.html">Portfolio</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <i class="fas fa-bars"></i>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav ms-auto">
+                        <li class="nav-item">
+                            <a class="nav-link active" href="#hero">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#about">About</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#projects">Projects</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#skills">Skills</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#contact">Contact</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+
+        <!--Hero Section (main banner)-->
+        <section id="hero">
+            <div class="container">
+                <div class="hero-content">
+                    <h1>Hello, I'm <span class="highight">James Ngariu</span></h1>
+                    <h2>Web Developer & CS50x Student</h2>
+                    <p>Welcome to my portfolio website showcasing my journery in web development</p>
+                    <div class="cta-buttons">
+                        <a href="#projects" class="btn btn-primary">View My Work</a>
+                        <a href="#contact" class="btn btn-secondary">Get In Touch</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!--About Section-->
+        <section id="about">
+            <div class="container">
+                <h2 class="section-title">About Me</h2>
+                <div class="about-content">
+                    <div class="about-image">
+                        <img src="images/profile.png" alt="profile photo" id="profile-photo">
+                    </div>
+                    <div class="about-text">
+                        <h3>Who Am I</h3>
+                        <p>I'am a passionate web developer and CS50x student with a keen interest in creating beautiful, functional websites. I believe in clean code, user-centered design, and continuous learning.</p>
+
+                        <h3>My Journey</h3>
+                        <p>My journey into web development began with CS50x, where I learned fundamental programming concepts and discovered my passion for web technologies. Since then, I've been expanding my skills through projects and further education.</p>
+
+                        <h3>My Interests</h3>
+                        <p>Outside of coding, I enjoy, reading science fiction, and experimenting with new recipes. I believe that diverse interests fuel creativity in problem-solving.</p>
+
+                        <div class="social-links">
+                            <a href="#" class="social-icon"><i class="fab fa-github"></i></a>
+                            <a href="#" class="social-icon"><i class="fab fa-linkedin"></i></a>
+                            <a href="#" class="social-icon"><i class="fab fa-twitter"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!--Projects Section-->
+        <section id="projects">
+            <div class="container">
+                <h2 class="section-title">My Projects</h2>
+                <div class="projects-grid">
+                    <!-- Project 1 -->
+                    <div class="project-card">
+                        <div class="project-image">
+                            <img src="images/personal-blog.jpg" alt="Project 1">
+                        </div>
+                        <div class="project-info">
+                            <h3>Personal Blog</h3>
+                            <p>A responsive blog website built with HTML, CSS, and JavaScript.</p>
+                            <div class="project-tags">
+                                <span>HTML</span>
+                                <span>CSS</span>
+                                <span>JavaScript</span>
+                            </div>
+                            <div class="project-links">
+                                <a href="#" class="btn btn-small">View Project</a>
+                                <a href="#" class="btn btn-small btn-outline">GitHub</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!--project 2-->
+                    <div class="project-card">
+                        <div class="project-image">
+                            <img src="images/weather-app.png" alt="Project 2">
+                        </div>
+                        <div class="project-info">
+                            <h3>Weather App</h3>
+                            <p>A weather application that fetches data from an API and displays forecast information.</p>
+                            <div class="project-tags">
+                                <span>HTML</span>
+                                <span>CSS</span>
+                                <span>JavaScript</span>
+                                <span>API</span>
+                            </div>
+                            <div class="project-links">
+                                <a href="#" class="btn btn-small">View Project</a>
+                                <a href="#" class="btn btn-small btn-outline">GitHub</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!--project 3-->
+                    <div class="project-card">
+                        <div class="project-image">
+                            <img src="images/task-manager.png" alt="Project 3">
+                        </div>
+                        <div class="project-info">
+                            <h3>Task Manager</h3>
+                            <p>A simple task management application with local storage functionality.</p>
+                            <div class="project-tags">
+                                <span>HTML</span>
+                                <span>CSS</span>
+                                <span>JavaScript</span>
+                            </div>
+                            <div class="project-links">
+                                <a href="#" class="btn btn-small">View Project</a>
+                                <a href="#" class="btn btn-small btn-outline">GitHub</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!--Skills Section-->
+        <section id="skills">
+            <div class="container">
+                <h2 class="section-title">My Skills</h2>
+                <div class="skills-container">
+                    <div class="skill-category">
+                        <h3>Programming Languages</h3>
+                        <div class="skill-list">
+                            <div class="skill">
+                                <div class="skill-name">HTML</div>
+                                <div class="skill-bar">
+                                    <div class="skill-level" style="width: 90%"></div>
+                                </div>
+                            </div>
+                            <div class="skill">
+                                <div class="skill-name">CSS</div>
+                                <div class="skill-bar">
+                                    <div class="skill-level" style="width: 85%"></div>
+                                </div>
+                            </div>
+                            <div class="skill">
+                                <div class="skill-name">JavaScript</div>
+                                <div class="skill-bar">
+                                    <div class="skill-level" style="width: 75%"></div>
+                                </div>
+                            </div>
+                            <div class="skill">
+                                <div class="skill-name">Python</div>
+                                <div class="skill-bar">
+                                    <div class="skill-level" style="width: 65%"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="skill-category">
+                        <h3>Tools & Frameworks</h3>
+                        <div class="skill-icons">
+                            <div class="skill-icon">
+                                <i class="fab fa-git-alt"></i>
+                                <span>Git</span>
+                            </div>
+                            <div class="skill-icon">
+                                <i class="fab fa-github"></i>
+                                <span>GitHub</span>
+                            </div>
+                            <div class="skill-icon">
+                                <i class="fab fa-bootstrap"></i>
+                                <span>Bootstrap</span>
+                            </div>
+                            <div class="skill-icon">
+                                <i class="fab fa-figma"></i>
+                                <span>Figma</span>
+                            </div>
+                            <div class="skill-icon">
+                                <i class="fab fa-react"></i>
+                                <span>React</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!--Contact Section-->
+        <section id="contact">
+            <div class="container">
+                <h2 class="section-title">Get In Touch</h2>
+                <div class="row">
+                    <div class="col-md-6">
+                        <div class="contact-form">
+                            <form id="contact-form">
+                                <div class="mb-3">
+                                    <label for="name" class="form-label">Name</label>
+                                    <input autocomplete="off" autofocus type="text" class="form-control" id="name" name="name" required>
+                                </div>
+                                <div class="mb-3">
+                                    <label for="email" class="form-label">Email</label>
+                                    <input autocomplete="off" type="email" class="form-control" id="email" name="email" required>
+                                </div>
+                                <div class="mb-3">
+                                    <label for="subject" class="form-label">Subject</label>
+                                    <input autocomplete="off" type="text" class="form-control" id="subject" name="subject" required>
+                                </div>
+                                <div class="mb-3">
+                                    <label for="message" class="form-label">Message</label>
+                                    <textarea class="form-control" id="message" name="message" rows="5" required></textarea>
+                                </div>
+                                <button type="submit" class="btn btn-primary">Send Message</button>
+                            </form>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="contact-info">
+                            <div class="contact-item">
+                                <i class="fas fa-envelope"></i>
+                                <p>james@fakemail.com</p>
+                            </div>
+                            <div class="contact-item">
+                                <i class="fas fa-phone"></i>
+                                <p>+254 712345678</p>
+                            </div>
+                            <div class="contact-item">
+                                <i class="fas fa-map-marker-alt"></i>
+                                <p>Eldoret, kenya</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <footer>
+            <div class="container">
+                <div class="footer-content">
+                    <div class="copyright">
+                        <p>&copy; 2025 My Portfolio. Created for CS50x.</p>
+                    </div>
+                    <div class="social-links">
+                        <a href="#" class="social-icon"><i class="fab fa-github"></i></a>
+                        <a href="#" class="social-icon"><i class="fab fa-linkedin"></i></a>
+                        <a href="#" class="social-icon"><i class="fab fa-twitter"></i></a>
+                    </div>
+                </div>
+            </div>
+        </footer>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+        <script src="script.js"></script>
+    </body>
+
+</html>

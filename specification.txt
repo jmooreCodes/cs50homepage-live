@@ -1,0 +1,71 @@
+HTML TAGS USED
+--------------
+
+<html> - Root element of the HTML document
+<head> - Contains metadata and document information
+<body> Main content container
+<nav> - Navigation menu container
+<section> - Defines different sections of the page
+<div> - Generic container for content
+<h1>, <h2>, <h3> - Heading elements for hierarchical structure
+<p> - Paragraph text
+<a> - Hyperlinks and navigation links
+<img> - Images with src and alt attributes
+<form> - Contact form container
+<input> - Form input fields
+<textarea> - Multiline text input
+<button> - Form submission and interactive buttons
+<i> - Font Awesome icons
+
+
+CSS PROPERTIES USED
+-------------------
+1. display: flex
+    -Used for flexible layouts
+    -creates responsive containers
+    -Example: .nav-menu { dispay: flex; }
+
+2. position: fixed/relative/absolute
+     -Fixed navigation bar
+     -positioning elements
+     -Example: #main-nav {position: fixed; }
+
+3. 3. transform
+   - Animations and transitions
+   - Hover effects
+   - Example: .project-card:hover { transform: translateY(-10px); }
+
+4. transition
+   - Smooth state changes
+   - Animated effects
+   - Example: .social-icon { transition: var(--transition); }
+
+5. background
+   - Colors and images
+   - Gradients
+   - Example: #hero { background-image: linear-gradient(...); }
+
+6. box-shadow
+   - Depth effects
+   - Card styling
+   - Example: .project-card { box-shadow: var(--box-shadow); }
+
+7. border-radius
+   - Rounded corners
+   - Circular images
+   - Example: .about-image img { border-radius: 50%; }
+
+8. margin/padding
+   - Spacing control
+   - Layout structure
+   - Example: .section-title { margin-bottom: var(--spacing-lg); }
+
+9. width/height
+   - Element dimensions
+   - Responsive sizing
+   - Example: .skill-bar { height: 10px; }
+
+10. font-family
+    - Typography
+    - Text styling
+    - Example: body { font-family: var(--body-font); }
