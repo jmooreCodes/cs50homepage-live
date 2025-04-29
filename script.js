@@ -1,4 +1,9 @@
-/* Allows for smooth scrolling when clicking on navigatio links*/
+const currentYear = new Date().getFullYear();
+const copyrightText = `© ${currentYear} My Portfolio. Created for CS50x problem Set 8.`;
+
+document.getElementById('copyright').textContent = copyrightText;
+
+/* Allows for smooth scrolling when clicking on navigation links*/
 function initSmoothScroll() {
     // Get all navigation links with hash (#) in their href
     const links = document.querySelectorAll('a[href^="#"]');
