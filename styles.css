@@ -305,6 +305,7 @@ section {
     border-radius: 50%;
     background-color: var(--light-color);
     display: flex;
+    opacity: 1;
     justify-content: center;
     align-items: center;
     transition: var(--transition);
